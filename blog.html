@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Restaurant Blog Design</title>
+<link href="img/icon.ico" rel="shortcut icon">
+<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.css" rel="stylesheet">
+
+<!-- Material Design Bootstrap -->
+<!-- <link href="css/mdb.css" rel="stylesheet"> -->
+
+<!-- Compiled Material Design Bootstrap -->
+<link href="css/compiled.css" rel="stylesheet">
+
+<!-- Your custom styles (optional) -->
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="hidden-sn mdb-skin">
+
+<!-- Start your project here--> 
+
+<!--Double navigation-->
+<header> 
+  <!-- Sidebar navigation -->
+  <div id="slide-out" class="side-nav sn-bg-4 mdb-sidenav">
+    <ul class="custom-scrollbar list-unstyled" style="max-height:100vh;">
+      <!-- Logo -->
+      <li>
+        <div class="logo-wrapper waves-light"> <a href="#"><img src="img/food-icon.png" class="img-fluid flex-center"></a> </div>
+      </li>
+      <!--/. Logo --> 
+      <!--Social-->
+      <li>
+        <ul class="social">
+          <li><a href="#" class="icons-sm fb-ic"><i class="fa fa-facebook"> </i></a></li>
+          <li><a href="#" class="icons-sm pin-ic"><i class="fa fa-pinterest"> </i></a></li>
+          <li><a href="#" class="icons-sm gplus-ic"><i class="fa fa-google-plus"> </i></a></li>
+          <li><a href="#" class="icons-sm tw-ic"><i class="fa fa-twitter"> </i></a></li>
+        </ul>
+      </li>
+      <!--/Social--> 
+      <!--Search Form-->
+      <li>
+        <form class="search-form" role="search">
+          <div class="form-group waves-light">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+        </form>
+      </li>
+      <!--/.Search Form--> 
+      <!-- Side navigation links -->
+      <li>
+        <ul class="collapsible collapsible-accordion">
+          <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-chevron-right"></i> Submit blog<i class="fa fa-angle-down rotate-icon"></i></a>
+            <div class="collapsible-body">
+              <ul>
+                <li><a href="form.html" class="waves-effect">Submit listing</a> </li>
+                <li><a href="form.html" class="waves-effect">Registration form</a> </li>
+              </ul>
+            </div>
+          </li>
+          <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-hand-pointer-o"></i> Instruction<i class="fa fa-angle-down rotate-icon"></i></a>
+            <div class="collapsible-body">
+              <ul>
+                <li><a href="subscribe.html" class="waves-effect">For bloggers</a> </li>
+                <li><a href="subscribe.html" class="waves-effect">For authors</a> </li>
+              </ul>
+            </div>
+          </li>
+          
+          <li><a href="#" class="collapsible-header waves-effect arrow-r"><i class="fa fa-envelope-o"></i> Contact Us<i class="fa fa-angle-down rotate-icon"></i></a>
+            <div class="collapsible-body">
+              <ul>
+                <li><a href="contact.html" class="waves-effect">FAQ</a> </li>
+                <li><a href="#" class="waves-effect">Write a message</a> </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </li>
+      <!--/. Side navigation links -->
+    </ul>
+    <div class="sidenav-bg mask-strong"></div>
+  </div>
+  <!--/. Sidebar navigation --> 
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-toggleable-md navbar-expand-lg scrolling-navbar double-nav"> 
+    <!-- SideNav slide-out button -->
+    <div class="float-left"> <a href="#" data-activates="slide-out" class="button-collapse"><i class="fa fa-bars"></i></a> </div>
+    <!-- Breadcrumb-->
+    <div class="breadcrumb-dn mr-auto">
+      <p><!--Material Design for Bootstrap--><a class="navbar-brand" href="#">Food House</a></p>
+    </div>
+    <ul class="nav navbar-nav nav-flex-icons ml-auto">
+      <li class="nav-item"> <a href="index.html" class="nav-link"><em class="fa fa-home"></em> <span class="clearfix d-none d-sm-inline-block">Home</span></a> </li>
+      <li class="nav-item"> <a href="about.html" class="nav-link"><em class="fa fa-user"></em> <span class="clearfix d-none d-sm-inline-block">About Us</span></a> </li>
+      <li class="nav-item"> <a href="service.html" class="nav-link"><em class="fa fa-coffee"></em> <span class="clearfix d-none d-sm-inline-block">Service</span></a></li>
+      <li class="nav-item"> <a href="menu.html" class="nav-link"><em class="fa fa-cutlery"></em> <span class="clearfix d-none d-sm-inline-block">Menu</span></a></li>
+       <li class="nav-item"> <a href="gallery.html" class="nav-link"><em class="fa fa-th"></em> <span class="clearfix d-none d-sm-inline-block">Gallery</span></a></li>
+
+      <li class="nav-item"> <a href="reserve-table.html" class="nav-link"><em class="fa fa-sign-in"></em> <span class="clearfix d-none d-sm-inline-block">Reservation</span></a></li>
+      
+      <li class="nav-item"> <a href="blog.html" class="nav-link"><em class="fa fa-newspaper-o"></em> <span class="clearfix d-none d-sm-inline-block">Blog</span></a> </li>
+      <li class="nav-item"> <a href="contact.html" class="nav-link"><i class="fa fa-envelope"></i> <span class="clearfix d-none d-sm-inline-block">Contact</span></a> </li>
+    </ul>
+  </nav>
+  <!-- /.Navbar --> 
+</header>            
+
+<!-- ===== ***** Section Blog Start ***** ===== -->
+<section id="blog">
+  <div class="container"> 
+    
+    <!-- Tabs with JavaScript Behavior Start  --> 
+    
+    <!-- Nav Tabs Start -->
+    <div class="tabs-wrapper">
+      <ul class="nav classic-tabs tabs-cyan" role="tablist">
+        <li class="nav-item"> <a class="nav-link waves-light active" data-toggle="tab" href="#panel51" role="tab">Event</a> </li>
+        <li class="nav-item"> <a class="nav-link waves-light" data-toggle="tab" href="#panel52" role="tab">Recipe</a> </li>
+        <li class="nav-item"> <a class="nav-link waves-light" data-toggle="tab" href="#panel53" role="tab">Offer</a> </li>
+        <li class="nav-item"> <a class="nav-link waves-light" data-toggle="tab" href="#panel54" role="tab">Be awesome</a> </li>
+      </ul>
+    </div>
+    <!-- Nav Tabs End --> 
+    
+    <!-- Tab Panels Start -->
+    <div class="tab-content card"> 
+      
+      <!--Panel 1-->
+      <div class="tab-pane fade in show active" id="panel51" role="tabpanel"> 
+        <!--Section: Blog v.3-->
+        <section class="py-4"> 
+          
+          <!--Grid row-->
+          <hr class="mb-5">
+          <div class="row"> 
+            
+            <!--Grid column-->
+            <div class="col-lg-5 col-xl-4 mb-4"> 
+              <!--Featured image-->
+              <div class="view overlay hm-white-slight rounded z-depth-1-half"> <img src="img/blog/birthday.jpg" class="img-fluid" alt="First sample image"> <a>
+                <div class="mask"></div>
+                </a> </div>
+            </div>
+            <!--Grid column--> 
+            
+            <!--Grid column-->
+            <div class="col-lg-7 col-xl-7 ml-xl-4 mb-4">
+              <h3 class="mb-3 font-bold"> <strong>BIRTHDAY</strong> </h3>
+              <p class="grey-text">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihiluk impedit quo minus id quod maxime placeat facere
+                possimus, omnisopo voluptas assumenda est, omnis dolor repellendus et aut officiis debitisj.</p>
+              <p>by <a class="font-bold dark-grey-text">Jessica Clark</a>, 26/08/2018</p>
+              <a href="read.html" class="btn btn-default">Read more</a></div>
+            <!--Grid column--> 
+            
+          </div>
+<!--Grid row-->
+          
+          <hr class="mb-5">
+          
+          <!--Grid row-->
+          <div class="row"> 
+            
+            <!--Grid column-->
+            <div class="col-lg-5 col-xl-4 mb-4"> 
+              <!--Featured image-->
+              <div class="view overlay hm-white-slight rounded z-depth-1"> <img src="img/blog/wedding.jpg" class="img-fluid" alt="Second sample image"> <a>
+                <div class="mask"></div>
+                </a> </div>
+            </div>
+            <!--Grid column--> 
+            
+            <!--Grid column-->
+            <div class="col-lg-7 col-xl-7 ml-xl-4 mb-4">
+              <h3 class="mb-3 font-bold"> <strong>WEDDING</strong> </h3>
+              <p class="grey-text">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihiluk impedit quo minus id quod maxime placeat facere possimus, omnisopo voluptas assumenda est, omnis dolor repellendus et aut officiis debitisj.</p>
+              <p>by <a class="font-bold dark-grey-text">Jessica Clark</a>, 24/08/2018</p>
+              <a href="read.html" class="btn btn-primary">Read more</a> </div>
+            <!--Grid column--> 
+            
+          </div>
+          <!--Grid row-->
+          
+          <hr class="mb-5">
+          <div class="row"> 
+            <!--Grid column-->
+            <div class="col-lg-5 col-xl-4 mb-4"> 
+              <!--Featured image-->
+              <div class="view overlay hm-white-slight rounded z-depth-1"> <img src="img/blog/anniversary.jpg" class="img-fluid" alt="Second sample image"> <a>
+                <div class="mask"></div>
+                </a></div>
+            </div>
+            <!--Grid column--> 
+            <!--Grid column-->
+            <div class="col-lg-7 col-xl-7 ml-xl-4 mb-4">
+              <h3 class="mb-3 font-bold text-uppercase"> <strong>Anniversary</strong></h3>
+              <p class="grey-text">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihiluk impedit quo minus id quod maxime placeat facere possimus, omnisopo voluptas assumenda est, omnis dolor repellendus et aut officiis debitisj.</p>
+              <p>by <a class="font-bold dark-grey-text">Jessica Clark</a>, 24/08/2018</p>
+              <a href="read.html" class="btn btn-primary">Read more</a></div>
+            <!--Grid column--> 
+          </div>
+          <!--Grid row--> <!--Grid row--></section>
+        <!--Section: Blog v.3--> 
+      </div>
+      
+      <!--Pagination blue-->      <!--/Pagination blue--> 
+      <!--/.Panel 1--> 
+      
+      <!--Panel 2-->
+      <div class="tab-pane fade" id="panel52" role="tabpanel"> 
+        <!-- 4:3 aspect ratio -->
+        <section class="py-4">
+          <hr class="mb-5">
+          <div class="row">
+            <div class="col-md-4 mb-4">
+              <div class="embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rkjQ149W4A4" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-8 mb-4">
+              <h3 class="mb-3 font-bold"> <strong>STEAM ROAST</strong> </h3>
+              <p class="dark-grey-text">Food Gallery <i class="fa fa-check-circle" aria-hidden="true"></i> &nbsp; 73K views &nbsp; 6 months ago</p>
+              <p class="text-justify"> <strong>Description:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia soluta maxime officiis provident eveniet, optio sit repellat deserunt, reprehenderit, id dolorem. Tempora molestiae omnis porro, maiores architecto. Nihil incidunt odit quae asperiores consectetur, consequatur atque autoiji.</p>
+              <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro repellat nobis quam expedita omnis.</p>
+              <p class="dark-grey-text"> New HD CC</p>
+            </div>
+          </div>
+<hr class="mb-5">
+          <div class="row">
+            <div class="col-md-4 mb-4">
+              <div class="embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BaZkVetLwCw" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-8 mb-4">
+              <h3 class="mb-3 font-bold"> <strong>NARGISI KOFTAY</strong></h3>
+              <p class="dark-grey-text">Food Gallery <i class="fa fa-check-circle" aria-hidden="true"></i> &nbsp; 67K views &nbsp; 6 months ago</p>
+              <p class="text-justify"> <strong>Description:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia soluta maxime officiis provident eveniet, optio sit repellat deserunt, reprehenderit, id dolorem. Tempora molestiae omnis porro, maiores architecto. Nihil incidunt odit quae asperiores consectetur, consequatur atque autoiji.</p>
+              <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro repellat nobis quam expedita omnis.</p>
+              <p class="dark-grey-text"> New HD CC</p>
+            </div>
+          </div>
+          <hr class="mb-5">
+          <div class="row">
+            <div class="col-md-4 mb-4">
+              <div class="embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/dBWliL5udpA" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-8 mb-4">
+              <h3 class="mb-3 font-bold"> <strong>WEDGE POTATO</strong></h3>
+              <p class="dark-grey-text">Food Gallery <i class="fa fa-check-circle" aria-hidden="true"></i> &nbsp; 71K views &nbsp; 6 months ago</p>
+              <p class="text-justify"> <strong>Description:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia soluta maxime officiis provident eveniet, optio sit repellat deserunt, reprehenderit, id dolorem. Tempora molestiae omnis porro, maiores architecto. Nihil incidunt odit quae asperiores consectetur, consequatur atque autoiji.</p>
+              <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro repellat nobis quam expedita omnis.</p>
+              <p class="dark-grey-text"> New HD CC</p>
+            </div>
+          </div>
+          <hr class="mb-5">
+          <div class="row">
+            <div class="col-md-4 mb-4">
+              <div class="embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_mB8QQuEllQ" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-8 mb-4">
+              <h3 class="mb-3 font-bold"> <strong>BEEF SINDHI BIRYANI</strong></h3>
+              <p class="dark-grey-text">Food Gallery <i class="fa fa-check-circle" aria-hidden="true"></i> &nbsp; 59K views &nbsp; 6 months ago</p>
+              <p class="text-justify"> <strong>Description:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia soluta maxime officiis provident eveniet, optio sit repellat deserunt, reprehenderit, id dolorem. Tempora molestiae omnis porro, maiores architecto. Nihil incidunt odit quae asperiores consectetur, consequatur atque autoiji.</p>
+              <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro repellat nobis quam expedita omnis.</p>
+              <p class="dark-grey-text"> New HD CC</p>
+            </div>
+          </div>
+                </section>
+      </div>
+      <!--/.Panel 2--> 
+      
+      <!--Panel 3-->
+      <div class="tab-pane fade" id="panel53" role="tabpanel"> 
+        
+        <!--Section: Magazine v.2-->
+        <section class="section magazine-section py-4"> 
+          
+          <!--Grid row-->
+          <hr class="mb-5">
+          <div class="row text-left"> 
+            
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12"> 
+              
+              <!--Featured news-->
+              <div class="single-news"> 
+                
+                <!--Image-->
+                <div class="view overlay hm-white-slight rounded z-depth-1-half mb-3"> <img src="https://mdbootstrap.com/img/Photos/Slides/1.jpg" class="img-fluid" alt="Wider sample
+post image"> <a>
+                  <div class="mask"></div>
+                  </a> </div>
+                
+                <!--Excerpt-->
+                <div class="news-data mb-5"> <a
+href="" class="deep-orange-text">
+                  <h6> <i class="fa fa-cutlery"></i> <strong> Culinary</strong> </h6>
+                  </a>
+                  <p class="dark-grey-text"> <strong> <i class="fa fa-clock-o"></i> 27/02/2018</strong> </p>
+                </div>
+                <h3 class="pt-2"> <a> <strong>This is title
+                  of the news</strong> </a> </h3>
+                <p align="justify">Sed
+                  ut perspiciatis unde voluptatem omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                  totam
+                  rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae explicabo.
+                  Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+              </div>
+              <!--/Featured news--> 
+              
+            </div>
+            <!--Grid column--> 
+            
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12"> 
+              
+              <!--Small news-->
+              
+              <div class="single-news">
+                <div class="row">
+                  <div class="col-md-3"> 
+                    
+                    <!--Image-->
+                    <div class="view overlay hm-white-slight rounded z-depth-1"> <img
+src="https://mdbootstrap.com/img/Photos/Others/img%20(29).jpg" class="img-fluid" alt="Minor sample
+post image"> <a>
+                      <div class="mask"></div>
+                      </a> </div>
+                  </div>
+                  
+                  <!--Excerpt-->
+                  <div class="col-md-9">
+                    <p class="dark-grey-text"> <strong>25/02/2018</strong> </p>
+                    <a class="grey-text">Duis aute irure dolor in reprehenderit in voluptate. <i class="fa
+fa-angle-right"></i> </a> </div>
+                </div>
+              </div>
+              <!--/Small news--> 
+              
+              <!--Small news-->
+              <div class="single-news">
+                <div class="row">
+                  <div class="col-md-3"> 
+                    
+                    <!--Image-->
+                    
+                    <div class="view overlay hm-white-slight rounded z-depth-1"> <img src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(45).jpg"
+class="img-fluid" alt="Minor sample post image"> <a>
+                      <div class="mask"></div>
+                      </a> </div>
+                  </div>
+                  
+                  <!--Excerpt-->
+                  <div class="col-md-9">
+                    <p class="dark-grey-text"> <strong>25/02/2018</strong> </p>
+                    <a class="grey-text">Duis aute irure dolor in reprehenderit in voluptate. <i class="fa
+fa-angle-right"></i> </a> </div>
+                </div>
+              </div>
+              <!--/Small news--> 
+              
+              <!--Small news-->
+              <div class="single-news">
+                <div class="row">
+                  <div class="col-md-3"> 
+                    
+                    <!--Image-->
+                    
+                    <div class="view overlay hm-white-slight rounded z-depth-1"> <img src="https://mdbootstrap.com/img/Photos/Others/images/87.jpg"
+class="img-fluid" alt="Minor sample post image"> <a>
+                      <div class="mask"></div>
+                      </a> </div>
+                  </div>
+                  
+                  <!--Excerpt-->
+                  <div class="col-md-9">
+                    <p class="dark-grey-text"> <strong>25/02/2018</strong> </p>
+                    <a class="grey-text">Duis aute irure dolor in reprehenderit in voluptate. <i class="fa
+fa-angle-right"></i> </a> </div>
+                </div>
+              </div>
+              <!--/Small news--> 
+              
+              <!--Small news-->
+              <div class="single-news">
+                <div class="row">
+                  <div class="col-md-3"> 
+                    
+                    <!--Image-->
+                    
+                    <div class="view overlay hm-white-slight rounded z-depth-1"> <img src="https://mdbootstrap.com/img/Photos/Others/img%20(27).jpg"
+class="img-fluid" alt="Minor sample post image"> <a>
+                      <div class="mask"></div>
+                      </a> </div>
+                  </div>
+                  
+                  <!--Excerpt-->
+                  <div class="col-md-9">
+                    <p class="dark-grey-text"> <strong>25/02/2018</strong> </p>
+                    <a class="grey-text">Duis aute irure dolor in reprehenderit in voluptate. <i class="fa
+fa-angle-right"></i> </a> </div>
+                </div>
+              </div>
+              <!--/Small news--> 
+              
+            </div>
+            <!--Grid column--> 
+            
+          </div>
+          <!--Grid row--> 
+          
+        </section>
+        <!--Section: Magazine v.2--> 
+        
+      </div>
+      <!--/.Panel 3--> 
+      
+      <!--Panel 4-->
+      <div class="tab-pane fade" id="panel54" role="tabpanel"> 
+        <!--Section: Blog v.1-->
+        <section class="py-4 text-center text-lg-left"> 
+          
+          <!--Section heading-->
+          <!--Section description-->
+          <!--Grid row-->
+          <div class="row"> 
+            
+            <!--Grid column-->
+            <div class="col-lg-5 col-xl-5 pb-3"> 
+              <!--Featured image-->
+              <div class="view overlay hm-white-slight rounded z-depth-2"> <img src="https://mdbootstrap.com/img/Photos/Others/img%20(27).jpg" alt="Sample image for first version of blog listing"
+            class="img-fluid"> <a>
+                <div class="mask"></div>
+                </a> </div>
+            </div>
+            <!--Grid column--> 
+            
+            <!--Grid column-->
+            <div class="col-lg-7 col-xl-7"> 
+              <!--Excerpt--> 
+              <a href="" class="green-text">
+              <h6 class="font-bold pb-1"> <i class="fa fa-cutlery"></i> Food</h6>
+              </a>
+              <h3 class="mb-4 font-bold"> <strong>This is title of the news</strong> </h3>
+              <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere
+                possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut officiis debitis aut rerum.</p>
+              <p>by <a> <strong>Carine Fox</strong> </a>, 19/08/2018</p>
+              <a href="read.html" class="btn btn-success btn-md mb-3">Read more</a> </div>
+            <!--Grid column--> 
+            
+          </div>
+          <!--Grid row-->
+          
+          <hr class="mb-5 mt-5 pb-3">
+          
+          <!--Grid row-->
+          <div class="row"> 
+            
+            <!--Grid column-->
+            <div class="col-lg-7 col-xl-7 pb-3"> 
+              <!--Excerpt--> 
+              <a href="" class="pink-text">
+              <h6 class="font-bold pb-1"> <i class="fa fa-image"></i> Lifestyle</h6>
+              </a>
+              <h3 class="mb-4 font-bold"> <strong>This is title of the news</strong> </h3>
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque
+                corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident et dolorum fuga.</p>
+              <p>by <a> <strong>Carine Fox</strong> </a>, 14/08/2018</p>
+              <a href="read.html" class="btn btn-pink btn-md mb-3">Read more</a> </div>
+            <!--Grid column--> 
+            
+            <!--Grid column-->
+            <div class="col-lg-5 col-xl-5 mb-5"> 
+              <!--Featured image-->
+              <div class="view overlay hm-white-slight rounded z-depth-2"> <img src="https://mdbootstrap.com/img/Photos/Others/img%20(34).jpg" alt="Second image in the first version of blog listing"
+            class="img-fluid"> <a>
+                <div class="mask"></div>
+                </a> </div>
+            </div>
+            <!--Grid column--> 
+            
+          </div>
+          <!--Grid row-->
+          
+          <hr class="mb-5 mt-4 pb-3">
+          
+          <!--Grid row-->
+          <div class="row pb-5"> 
+            
+            <!--Grid column-->
+            <div class="col-lg-5 col-xl-5 pb-3"> 
+              <!--Featured image-->
+              <div class="view overlay hm-white-slight rounded z-depth-2"> <img src="https://mdbootstrap.com/img/Photos/Others/img (28).jpg" alt="Thrid image in the blog listing." class="img-fluid"> <a>
+                <div class="mask"></div>
+                </a> </div>
+            </div>
+            <!--Grid column--> 
+            
+            <!--Grid column-->
+            <div class="col-lg-7 col-xl-7"> 
+              <!--Excerpt--> 
+              <a href="" class="indigo-text">
+              <h6 class="font-bold pb-1"> <i class="fa fa-suitcase"></i> Travels</h6>
+              </a>
+              <h3 class="mb-4 font-bold"> <strong>This is title of the news</strong> </h3>
+              <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+                eos qui ratione voluptatem sequi nesciunt. Neque porro qui dolorem ipsum quia sit amet, consectetur.</p>
+              <p>by <a> <strong>Carine Fox</strong> </a>, 11/08/2018</p>
+              <a href="read.html" class="btn btn-indigo btn-md mb-3">Read more</a> </div>
+            <!--Grid column--> 
+            
+          </div>
+          <!--Grid row--> 
+          
+        </section>
+        <!--Section: Blog v.1--> 
+        
+      </div>
+      <!--/.Panel 4--> 
+      
+    </div>
+    <!-- Tab Panels End --> 
+    
+    <!-- Tabs with JavaScript Behavior End --> 
+    
+  </div>
+</section>
+<!-- ===== ***** Section Blog End ***** ===== --> 
+
+<!--Footer-->
+    <footer class="page-footer"> 
+      
+      <!--Footer Links-->
+      <div class="container"> 
+        
+        <!-- Footer links -->
+        <div class="row text-center text-md-left mt-3 pb-3"> 
+          
+          <!--First column-->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="title mb-4 font-bold">Food House</h6>
+            <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+          <!--/.First column-->
+          
+          <hr class="w-100 clearfix d-md-none">
+          
+          <!--Second column-->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="title mb-4 font-bold">Opening Time</h6>
+            <p><a href="#!">Sun-Thu: 8:30 am-11:00 pm</a></p>
+            <p><a href="#!">Fri-Sat: 9:00 am-12 pm</a></p>
+            <p><a href="#!">Holiday: 10:00 am-11 pm</a></p>
+          </div>
+          <!--/.Second column-->
+          
+          <hr class="w-100 clearfix d-md-none">
+          
+          <!--Third column-->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="title mb-4 font-bold">Useful links</h6>
+            <p><a href="menu.html">Menu Item</a></p>
+            <p><a href="service.html">Our Service</a></p>
+            <p><a href="gallery.html">Food Gallery</a></p>
+            <p><a href="reserve-table.html">Reserve Table</a></p>
+          </div>
+          <!--/.Third column-->
+          
+          <hr class="w-100 clearfix d-md-none">
+          
+          <!--Fourth column-->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="title mb-4 font-bold">Contact</h6>
+            <p><i class="fa fa-home mr-3"></i> Dhaka, Bangladesh</p>
+            <p><i class="fa fa-envelope mr-3"></i> info@example.com</p>
+            <p><i class="fa fa-phone mr-3"></i> +88 0182656565</p>
+            <p><i class="fa fa-print mr-3"></i> +88 0175554655</p>
+          </div>
+          <!--/.Fourth column--> 
+          
+        </div>
+        <!-- Footer links -->
+        
+        <hr>
+        <div class="row py-3 d-flex align-items-center"> 
+          
+          <!--Grid column-->
+          <div class="col-md-8 col-lg-9"> 
+            
+            <!--Copyright-->
+            <p class="text-center text-md-left text-dark">© 2018 Copyright: <a href="img/Bitm_presentaion.pdf" download="download"><strong> Authentic Group</strong></a></p>
+            <!--/.Copyright--> 
+            
+          </div>
+          <!--Grid column--> 
+          
+          <!--Grid column-->
+          <div class="col-md-4 col-lg-3 ml-lg-0"> 
+            
+            <!--Social buttons-->
+            <div class="social-section text-center text-md-left">
+              <ul>
+                <li><a class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"> </i></a></li>
+                <li><a class="btn-floating btn-sm btn-tw"><i class="fa fa-twitter"> </i></a></li>
+                <li><a class="btn-floating btn-sm btn-gplus"><i class="fa fa-google-plus"> </i></a></li>
+                <li><a class="btn-floating btn-sm btn-li"><i class="fa fa-linkedin"> </i></a></li>
+                <li><a class="btn-floating btn-sm btn-dribbble"><i class="fa fa-dribbble"> </i></a></li>
+              </ul>
+            </div>
+            <!--/.Social buttons--> 
+            
+          </div>
+          <!--Grid column--> 
+          
+        </div>
+      </div>
+    </footer>
+    <!--/.Footer--> 
+
+<!-- /Start your project here--> 
+
+<!-- SCRIPTS --> 
+<!-- JQuery --> 
+<script type="text/javascript" src="js/jquery-3.2.1.js"></script> 
+
+<!-- Bootstrap tooltips --> 
+<script type="text/javascript" src="js/popper.js"></script> 
+
+<!-- Bootstrap core JavaScript --> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+
+<!-- MDB core JavaScript --> 
+<!-- <script type="text/javascript" src="js/mdb.js"></script> --> 
+
+<!-- Compiled MDB core JavaScript --> 
+<script type="text/javascript" src="js/compiled.js"></script> 
+<script>
+        
+        // SideNav Initialization
+        $(".button-collapse").sideNav();
+
+</script> 
+
+<!-- Custom JavaScript --> 
+<script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>

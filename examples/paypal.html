@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment information</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Include Bootstrap CSS -->
+
+        <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- google font -->
+     <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    
+    <!-- Material Design Bootstrap -->
+    <link href="../css/mdb.min.css" rel="stylesheet">
+    <link href="../css/compiled.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+
+    <link href="../css/style.css" rel="stylesheet">
+    <!-- Include SmartCart CSS -->
+    <link href="../dist/css/smart_cart.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<!--Double navigation-->
+<header> 
+  <!-- Sidebar navigation -->
+  <div id="slide-out" class="side-nav sn-bg-4 mdb-sidenav">
+    <ul class="custom-scrollbar list-unstyled" style="max-height:100vh;">
+      <!-- Logo -->
+      <li>
+        <div class="logo-wrapper waves-light"> <a href="#"><img src="https://mdbootstrap.com/img/logo/mdb-transparent.png" class="img-fluid flex-center"></a> </div>
+      </li>
+      <!--/. Logo --> 
+      <!--Social-->
+      <li>
+        <ul class="social">
+          <li><a href="#" class="icons-sm fb-ic"><i class="fa fa-facebook"> </i></a></li>
+          <li><a href="#" class="icons-sm pin-ic"><i class="fa fa-pinterest"> </i></a></li>
+          <li><a href="#" class="icons-sm gplus-ic"><i class="fa fa-google-plus"> </i></a></li>
+          <li><a href="#" class="icons-sm tw-ic"><i class="fa fa-twitter"> </i></a></li>
+        </ul>
+      </li>
+      <!--/Social--> 
+      <!--Search Form-->
+      <li>
+        <form class="search-form" role="search">
+          <div class="form-group waves-light">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+        </form>
+      </li>
+      <!--/.Search Form--> 
+      <!-- Side navigation links -->
+      <li>
+        <ul class="collapsible collapsible-accordion">
+          <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-chevron-right"></i> Submit blog<i class="fa fa-angle-down rotate-icon"></i></a>
+            <div class="collapsible-body">
+              <ul>
+                <li><a href="#" class="waves-effect">Submit listing</a> </li>
+                <li><a href="#" class="waves-effect">Registration form</a> </li>
+              </ul>
+            </div>
+          </li>
+          <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-hand-pointer-o"></i> Instruction<i class="fa fa-angle-down rotate-icon"></i></a>
+            <div class="collapsible-body">
+              <ul>
+                <li><a href="#" class="waves-effect">For bloggers</a> </li>
+                <li><a href="#" class="waves-effect">For authors</a> </li>
+              </ul>
+            </div>
+          </li>
+          <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-eye"></i> About<i class="fa fa-angle-down rotate-icon"></i></a>
+            <div class="collapsible-body">
+              <ul>
+                <li><a href="#" class="waves-effect">Introduction</a> </li>
+                <li><a href="#" class="waves-effect">Monthly meetings</a> </li>
+              </ul>
+            </div>
+          </li>
+          <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-envelope-o"></i> Contact me<i class="fa fa-angle-down rotate-icon"></i></a>
+            <div class="collapsible-body">
+              <ul>
+                <li><a href="#" class="waves-effect">FAQ</a> </li>
+                <li><a href="#" class="waves-effect">Write a message</a> </li>
+                <li><a href="#" class="waves-effect">FAQ</a> </li>
+                <li><a href="#" class="waves-effect">Write a message</a> </li>
+                <li><a href="#" class="waves-effect">FAQ</a> </li>
+                <li><a href="#" class="waves-effect">Write a message</a> </li>
+                <li><a href="#" class="waves-effect">FAQ</a> </li>
+                <li><a href="#" class="waves-effect">Write a message</a> </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </li>
+      <!--/. Side navigation links -->
+    </ul>
+    <div class="sidenav-bg mask-strong"></div>
+  </div>
+  <!--/. Sidebar navigation --> 
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-toggleable-md navbar-expand-lg scrolling-navbar double-nav"> 
+    <!-- SideNav slide-out button -->
+    <div class="float-left"> <a href="#" data-activates="slide-out" class="button-collapse"><i class="fa fa-bars"></i></a> </div>
+    <!-- Breadcrumb-->
+    <div class="breadcrumb-dn mr-auto">
+      <p><!--Material Design for Bootstrap--><a class="navbar-brand" href="#">Navbar</a></p>
+    </div>
+    <ul class="nav navbar-nav nav-flex-icons ml-auto">
+      <li class="nav-item"> <a href="index.html" class="nav-link"><em class="fa fa-home"></em> <span class="clearfix d-none d-sm-inline-block">Home</span></a> </li>
+      <li class="nav-item"> <a class="nav-link"><em class="fa fa-user"></em> <span class="clearfix d-none d-sm-inline-block">About Us</span></a> </li>
+      <li class="nav-item"> <a href="service.html" class="nav-link"><em class="fa fa-cogs"></em> <span class="clearfix d-none d-sm-inline-block">Service</span></a></li>
+      <li class="nav-item"> <a href="menu.html" class="nav-link"><em class="fa fa-user"></em> <span class="clearfix d-none d-sm-inline-block">Menu</span></a></li>
+      <li class="nav-item"> <a href="gallery.html" class="nav-link"><em class="fa fa-user"></em> <span class="clearfix d-none d-sm-inline-block">Gallery</span></a></li>
+      
+      <li class="nav-item"> <a href="blog.html" class="nav-link"><em class="fa fa-newspaper-o"></em> <span class="clearfix d-none d-sm-inline-block">Blog</span></a> </li>
+      <li class="nav-item"> <a href="contact.html" class="nav-link"><i class="fa fa-envelope"></i> <span class="clearfix d-none d-sm-inline-block">Contact</span></a> </li>
+    </ul>
+  </nav>
+  <!-- /.Navbar --> 
+</header>        
+    <br />
+      <section id="Payment_main"  class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        Food Quality
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <!-- BEGIN PRODUCTS -->
+                            <div class="col-md-12">
+                                <div class="sc-product-item thumbnail">
+                                    <div class="food_details">
+                                        <img class="img-fluid" data-name="product_image" src="img/breakfast.jpg" alt="breakfast">
+                                            <!-- tooltips  -->
+                                            <div id="panelPrecios" class="circle">
+                                                <a data-toggle="tooltip" title="<img src='https://getbootstrap.com/apple-touch-icon.png' />"><img src="img/ko.gif" height="30px" width="30px"> </a>
+                                            </div>
+                                    <div>
+                                            
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="caption">
+                                        <h4 data-name="product_name">Iteam selected</h4>
+                                        <p data-name="product_desc">Product details</p>
+
+                                        <hr class="line">
+                                        <section id="add_select">
+                                        
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <div class="form-group2 form-inline">
+                                                            <label>Table Number</label>
+                                                            <input type="number" name="" min="5" value="5">
+                                                        </div> 
+
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="form-group2 form-inline">
+                                                            <label>Person : </label>
+                                                            <input class="sc-cart-item-qty" name="product_quantity" min="1" value="1" type="number">
+                                                            <strong class="price"> &Chi; $20</strong>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="add_select">
+                                                               
+                                                                <input name="product_price" value="20" type="hidden" />
+                                                                <input name="product_id" value="12" type="hidden" />
+                                                                <button class="sc-add-to-cart btn btn-warning pull-right">Reserve Now</button>
+                                                                
+                                                          </div>
+                                                    </div>
+                                                </div>
+                                          
+                                        </section>
+                                        <div>
+
+
+
+                                            
+
+                                            
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END PRODUCTS -->
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <aside class="col-md-4">
+                <!-- Paypal Submit URL : https://www.paypal.com/cgi-bin/webscr -->
+                <!-- Paypal Sandbox Submit URL: https://www.sandbox.paypal.com/cgi-bin/webscr -->      
+                
+                <!-- Paypal Cart submit form -->
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="POST"> 
+                    <!-- SmartCart element -->
+                    <div id="smartcart"></div>
+                    
+                    <!-- Paypal required info, Please update based on your details -->
+                    <input name="business" value="dipumedayil@gmail.com" type="hidden">            
+                    <input name="currency_code" value="USD" type="hidden">
+                    <input name="return" value="http://www.yourdomain.com/yoursuccessurl" type="hidden">            
+                    <input name="cancel_return" value="http://www.yourdomain.com/yourcancelurl" type="hidden">
+                    
+                    <input name="cmd" value="_cart" type="hidden">    
+                    <input name="upload" value="1" type="hidden">            
+                </form>
+            </aside>
+            
+        </div>
+    </section>
+                <!--Footer-->
+                <footer class="page-footer stylish-color-dark"> 
+                  
+                  <!--Footer Links-->
+                  <div class="container"> 
+                    
+                    <!-- Footer links -->
+                    <div class="row text-center text-md-left mt-3 pb-3"> 
+                      
+                      <!--First column-->
+                      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h6 class="title mb-4 font-bold">Company name</h6>
+                        <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      </div>
+                      <!--/.First column-->
+                      
+                      <hr class="w-100 clearfix d-md-none">
+                      
+                      <!--Second column-->
+                      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h6 class="title mb-4 font-bold">Products</h6>
+                        <p><a href="#!">MDBootstrap</a></p>
+                        <p><a href="#!">MDWordPress</a></p>
+                        <p><a href="#!">BrandFlow</a></p>
+                        <p><a href="#!">Bootstrap Angular</a></p>
+                      </div>
+                      <!--/.Second column-->
+                      
+                      <hr class="w-100 clearfix d-md-none">
+                      
+                      <!--Third column-->
+                      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h6 class="title mb-4 font-bold">Useful links</h6>
+                        <p><a href="#!">Your Account</a></p>
+                        <p><a href="#!">Become an Affiliate</a></p>
+                        <p><a href="#!">Shipping Rates</a></p>
+                        <p><a href="#!">Help</a></p>
+                      </div>
+                      <!--/.Third column-->
+                      
+                      <hr class="w-100 clearfix d-md-none">
+                      
+                      <!--Fourth column-->
+                      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h6 class="title mb-4 font-bold">Contact</h6>
+                        <p><i class="fa fa-home mr-3"></i> New York, NY 10012, US</p>
+                        <p><i class="fa fa-envelope mr-3"></i> info@example.com</p>
+                        <p><i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
+                        <p><i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
+                      </div>
+                      <!--/.Fourth column--> 
+                      
+                    </div>
+                    <!-- Footer links -->
+                    
+                    <hr>
+                    <div class="row py-3 d-flex align-items-center"> 
+                      
+                      <!--Grid column-->
+                      <div class="col-md-8 col-lg-9"> 
+                        
+                        <!--Copyright-->
+                        <p class="text-center text-md-left grey-text">© 2017 Copyright: <a href="https://www.MDBootstrap.com"><strong> MDBootstrap.com</strong></a></p>
+                        <!--/.Copyright--> 
+                        
+                      </div>
+                      <!--Grid column--> 
+                      
+                      <!--Grid column-->
+                      <div class="col-md-4 col-lg-3 ml-lg-0"> 
+                        
+                        <!--Social buttons-->
+                        <div class="social-section text-center text-md-left">
+                          <ul>
+                            <li><a class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"> </i></a></li>
+                            <li><a class="btn-floating btn-sm btn-tw"><i class="fa fa-twitter"> </i></a></li>
+                            <li><a class="btn-floating btn-sm btn-gplus"><i class="fa fa-google-plus"> </i></a></li>
+                            <li><a class="btn-floating btn-sm btn-li"><i class="fa fa-linkedin"> </i></a></li>
+                            <li><a class="btn-floating btn-sm btn-dribbble"><i class="fa fa-dribbble"> </i></a></li>
+                          </ul>
+                        </div>
+                        <!--/.Social buttons--> 
+                        
+                      </div>
+                      <!--Grid column--> 
+                      
+                    </div>
+                  </div>
+                </footer>
+                <!--/.Footer--> 
+    <!-- Include jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript" ></script>
+    <!-- Include SmartCart -->
+    <script src="../dist/js/jquery.smartCart.min.js" type="text/javascript"></script>
+    <!-- Initialize -->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            // Initialize Smart Cart    	
+            $('#smartcart').smartCart({
+                                submitSettings: {
+                                    submitType: 'paypal' // form, paypal, ajax
+                                },
+                                toolbarSettings: {
+                                    checkoutButtonStyle: 'paypal' // default, paypal, image
+                                }
+                            });
+		});
+    </script>
+
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="../js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+  
+    <!-- parlux js -->
+
+
+    <script type="text/javascript" src="../jh/mdb.min.js"></script>
+    <script type="text/javascript" src="../js/main.js"></script>
+</body>
+</html>
